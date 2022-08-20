@@ -1,0 +1,520 @@
+#navcheck:checked ~ .navbarul li{
+    margin-top: 0px;
+}
+
+
+
+@media screen and (max-width:768px){
+
+    body{
+        margin-top: 60px;
+    }
+
+    
+    .contentstart{
+        height: 100vh;
+    }
+
+    .featurevideocont{
+        .maincontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .btncont{
+        margin-bottom: 180px;
+        
+        
+        a{
+            .preorderbtn{
+                font-size: 1em;
+            }
+        }
+    }
+
+    .featurevideocont{
+        .maincontent{
+            .video{
+                margin: 0;
+                margin-bottom: 40px;
+                height: 200px;
+                width: 300px;
+            }
+
+            .feature{
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+
+    .jordanchallenge{
+        .challengecont{
+            display: flex;
+            flex-direction: column;
+            
+            .jordan{
+                height: 180px;
+            }
+
+            .jordantextcont{
+                text-align: center;
+                font-size: 1em;
+            }
+
+            .btncont2{
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .gameplaychanges{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .bookerball{
+            height: 300px;
+            margin: 10% auto;
+        }
+
+        .changestxt{
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+
+    .surveyformbg{
+
+        .surveyformcontainer{
+            .signuptxt{
+                h1{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: .8em;
+                }
+            }
+        }
+
+        #survey-form{
+            font-size: 1em;
+
+            #inputchoice{
+                height: 20px;
+            }
+
+            #birth-month{
+                height: 20px;
+            }
+
+            #birth-year{
+                height: 20px;
+            }
+
+            #region{
+                height: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:425px){
+
+    body{
+        margin-top: 60px;
+    }
+
+    .btncont{
+        margin-bottom: 20px;
+    }
+    
+    .contentstart{
+        height: 20%;
+    }
+
+    .featurevideocont{
+        .maincontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .btncont{
+        margin-bottom: 20px;
+        margin-top: 160px;
+        
+        a{
+            .preorderbtn{
+                font-size: 1em;
+            }
+        }
+    }
+
+    .featurevideocont{
+        .maincontent{
+            .video{
+                margin: 0;
+                margin-bottom: 40px;
+                height: 200px;
+                width: 300px;
+            }
+
+            .feature{
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+
+    .jordanchallenge{
+        .challengecont{
+            display: flex;
+            flex-direction: column;
+            
+            .jordan{
+                height: 180px;
+            }
+
+            .jordantextcont{
+                text-align: center;
+                font-size: 1em;
+            }
+
+            .btncont2{
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .gameplaychanges{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .bookerball{
+            height: 300px;
+            margin: 10% auto;
+        }
+
+        .changestxt{
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+
+    .surveyformbg{
+
+        .surveyformcontainer{
+            .signuptxt{
+                h1{
+                    font-size: 1em;
+                    padding-top: 0px;
+                }
+
+                p{
+                    font-size: .8em;
+                }
+            }
+        }
+
+        #survey-form{
+            font-size: 1em;
+
+            #inputchoice{
+                height: 20px;
+            }
+
+            #birth-month{
+                height: 20px;
+            }
+
+            #birth-year{
+                height: 20px;
+            }
+
+            #region{
+                height: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:375px){
+
+    body{
+        margin-top: 60px;
+    }
+
+    .btncont{
+        margin-bottom: 20px;
+    }
+    
+    .contentstart{
+        height: 20%;
+    }
+
+    .featurevideocont{
+        .maincontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+
+    .btncont{
+        margin-bottom: 20px;
+        margin-top: 160px;
+        
+        a{
+            .preorderbtn{
+                font-size: 1em;
+            }
+        }
+    }
+
+    .featurevideocont{
+        .maincontent{
+            .video{
+                margin: 0;
+                margin-bottom: 40px;
+                height: 160px;
+                width: 250px;
+            }
+
+            .feature{
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+
+    .jordanchallenge{
+        .challengecont{
+            display: flex;
+            flex-direction: column;
+            
+            .jordan{
+                height: 160px;
+            }
+
+            .jordantextcont{
+                text-align: center;
+                font-size: 1em;
+            }
+
+            .btncont2{
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .gameplaychanges{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .bookerball{
+            height: 300px;
+            margin: 10% auto;
+        }
+
+        .changestxt{
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+
+    .surveyformbg{
+
+        .surveyformcontainer{
+            .signuptxt{
+                h1{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: .8em;
+                }
+            }
+        }
+
+        #survey-form{
+            font-size: 1em;
+            margin-top: 10px;
+            #inputchoice{
+                height: 20px;
+            }
+
+            #birth-month{
+                height: 20px;
+            }
+
+            #birth-year{
+                height: 20px;
+            }
+
+            #region{
+                height: 20px;
+            }
+
+            .privacyp{
+                margin-top: 10px;
+            }
+
+            .submitcont{
+                #submitbtn{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px){
+
+    body{
+        margin-top: 60px;
+    }
+
+    .contentstart{
+        height: 0px;
+
+
+        .btncont{
+            font-size: .7em;
+                
+            .preorderbtn{
+                padding: 5px 5px 5px 5px;
+            }
+        }
+    }
+
+
+
+    .featurevideocont{
+        .maincontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .featurevideocont{
+        .maincontent{
+            .video{
+                margin: 0;
+                margin-bottom: 40px;
+                height: 160px;
+                width: 250px;
+            }
+
+            .feature{
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+
+    .jordanchallenge{
+        .challengecont{
+            display: flex;
+            flex-direction: column;
+            
+            .jordan{
+                height: 120px;
+            }
+
+            .jordantextcont{
+                text-align: center;
+                font-size: 1em;
+            }
+
+            .btncont2{
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .gameplaychanges{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        .bookercont{
+            margin-right: 5%;
+        }
+
+        .bookerball{
+            height: 300px;
+            display:flex;
+            justify-content: center;
+        }
+
+        .changestxt{
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+
+    .surveyformbg{
+
+        .surveyformcontainer{
+            .signuptxt{
+                h1{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: .8em;
+                }
+            }
+        }
+
+        #survey-form{
+            font-size: .7em;
+            margin-top: 10px;
+            #inputchoice{
+                height: 15px;
+            }
+
+            #birth-month{
+                height: 15px;
+            }
+
+            #birth-year{
+                height: 15px;
+            }
+
+            #region{
+                height: 15px;
+            }
+
+            .privacyp{
+                margin-top: 10px;
+            }
+
+            .submitcont{
+                #submitbtn{
+                    margin-top: 0px;
+                }
+            }
+        }
+}
+}

@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 40px;
+}
+
+.navmain {
+  width: 100%;
+  padding: 0;
+  top: 0%;
+  position: fixed;
+}
+.navmain .navcontainer {
+  position: relative;
+  top: 0;
+  width: 100%;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.navmain .navcontainer .logo2k {
+  height: 30px;
+  margin: 20px 30px 10px;
+}
+.navmain .navcontainer .navcheckbox {
+  background-color: black;
+}
+.navmain .navcontainer #navcheck {
+  float: right;
+  display: none;
+}
+.navmain .navcontainer #navbarbtn {
+  cursor: pointer;
+  float: right;
+  margin-top: 25px;
+  margin-right: 60px;
+  font-size: 1.2em;
+}
+.navmain .navcontainer ul li {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+  background-color: rgba(0, 0, 0, 0.775);
+  margin-top: -200px;
+}
+.navmain .navcontainer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.contentstart {
+  background-image: url(../assets/dbook2klogo.jpg);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btncont {
+  margin-bottom: 80px;
+}
+.btncont .preorderbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid red;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  font-weight: 100%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btncont .preorderbtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.featurevideocont {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.featurevideocont .maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.featurevideocont .maincontent .feature {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  font-weight: 100%;
+  margin: 20px 40px 20px 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.featurevideocont .maincontent .feature .featuretxt {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2em;
+  font-weight: 50%;
+  text-align: start;
+  text-transform: bold;
+  margin-top: 20px;
+}
+.featurevideocont .maincontent .video {
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+  width: 628px;
+  height: 370px;
+  border: none;
+}
+
+.jordanchallenge {
+  background-image: url(../assets/purplebg.avif);
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+}
+.jordanchallenge .challengecont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jordanchallenge .challengecont .jordan {
+  height: 350px;
+  margin: 100px 35px 40px;
+}
+.jordanchallenge .challengecont .jordantextcont {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5em;
+  font-weight: 100%;
+}
+.jordanchallenge .challengecont .jordantextcont h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+}
+.jordanchallenge .challengecont .btncont2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.jordanchallenge .challengecont .btncont2 .learnmorebtn {
+  padding: 10px 20px 10px 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.jordanchallenge .challengecont .btncont2 .learnmorebtn:hover {
+  background-color: white;
+  color: black;
+}
+.jordanchallenge h1 {
+  color: white;
+  display: block;
+}
+.jordanchallenge p {
+  color: white;
+}
+
+.gameplaychanges {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 60px 20px 20px 36px;
+}
+.gameplaychanges .bookerball {
+  height: 500px;
+  margin-left: 20px;
+}
+.gameplaychanges .changestxt {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+  margin-right: 40px;
+}
+.gameplaychanges .changestxt h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+}
+.gameplaychanges .buttoncontainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.gameplaychanges .buttoncontainer .button {
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+.gameplaychanges .buttoncontainer .button:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.surveyformbg {
+  background-image: url(../assets/purplebg.avif);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.surveyformbg .surveyformcontainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.surveyformbg .surveyformcontainer .signuptxt {
+  color: white;
+  text-align: center;
+}
+.surveyformbg .surveyformcontainer .signuptxt h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3em;
+  font-weight: 100%;
+  padding-top: 40px;
+}
+.surveyformbg .surveyformcontainer .signuptxt p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+  padding-top: 20px;
+}
+.surveyformbg #survey-form {
+  margin-top: 40px;
+  margin-bottom: 5%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100%;
+}
+.surveyformbg #survey-form #region {
+  width: 100%;
+  height: 40px;
+}
+.surveyformbg #survey-form #inputchoice {
+  width: 100%;
+  height: 40px;
+}
+.surveyformbg #survey-form label {
+  display: block;
+  text-transform: uppercase;
+  color: white;
+}
+.surveyformbg #survey-form .birthmonth {
+  width: 49.1%;
+}
+.surveyformbg #survey-form .birth-year {
+  width: 49.1%;
+}
+.surveyformbg #survey-form #birth-month {
+  width: 100%;
+  height: 40px;
+}
+.surveyformbg #survey-form #birth-year {
+  width: 100%;
+  height: 40px;
+}
+.surveyformbg #survey-form .privacyp {
+  color: white;
+  margin-top: 20px;
+}
+.surveyformbg #survey-form .privacyp a {
+  color: white;
+}
+.surveyformbg #survey-form .submitcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+.surveyformbg #survey-form .submitcont #submitbtn {
+  border: none;
+  background-color: red;
+  padding: 10px 30px 10px 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 100%;
+  color: white;
+  cursor: pointer;
+}
+.surveyformbg #survey-form .submitcont #submitbtn:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.birthdatecont {
+  width: 100%;
+}
+.birthdatecont div {
+  display: inline-block;
+}
+.birthdatecont div label {
+  display: block;
+}
+
+#navcheck:checked ~ .navbarul li {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 60px;
+  }
+  .contentstart {
+    height: 100vh;
+  }
+  .featurevideocont .maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btncont {
+    margin-bottom: 180px;
+  }
+  .btncont a .preorderbtn {
+    font-size: 1em;
+  }
+  .featurevideocont .maincontent .video {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 200px;
+    width: 300px;
+  }
+  .featurevideocont .maincontent .feature {
+    font-size: 1em;
+    text-align: center;
+  }
+  .jordanchallenge .challengecont {
+    display: flex;
+    flex-direction: column;
+  }
+  .jordanchallenge .challengecont .jordan {
+    height: 180px;
+  }
+  .jordanchallenge .challengecont .jordantextcont {
+    text-align: center;
+    font-size: 1em;
+  }
+  .jordanchallenge .challengecont .btncont2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .gameplaychanges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .gameplaychanges .bookerball {
+    height: 300px;
+    margin: 10% auto;
+  }
+  .gameplaychanges .changestxt {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt h1 {
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt p {
+    font-size: 0.8em;
+  }
+  .surveyformbg #survey-form {
+    font-size: 1em;
+  }
+  .surveyformbg #survey-form #inputchoice {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-month {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-year {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #region {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    margin-top: 60px;
+  }
+  .btncont {
+    margin-bottom: 20px;
+  }
+  .contentstart {
+    height: 20%;
+  }
+  .featurevideocont .maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btncont {
+    margin-bottom: 20px;
+    margin-top: 160px;
+  }
+  .btncont a .preorderbtn {
+    font-size: 1em;
+  }
+  .featurevideocont .maincontent .video {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 200px;
+    width: 300px;
+  }
+  .featurevideocont .maincontent .feature {
+    font-size: 1em;
+    text-align: center;
+  }
+  .jordanchallenge .challengecont {
+    display: flex;
+    flex-direction: column;
+  }
+  .jordanchallenge .challengecont .jordan {
+    height: 180px;
+  }
+  .jordanchallenge .challengecont .jordantextcont {
+    text-align: center;
+    font-size: 1em;
+  }
+  .jordanchallenge .challengecont .btncont2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .gameplaychanges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .gameplaychanges .bookerball {
+    height: 300px;
+    margin: 10% auto;
+  }
+  .gameplaychanges .changestxt {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt h1 {
+    font-size: 1em;
+    padding-top: 0px;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt p {
+    font-size: 0.8em;
+  }
+  .surveyformbg #survey-form {
+    font-size: 1em;
+  }
+  .surveyformbg #survey-form #inputchoice {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-month {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-year {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #region {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    margin-top: 60px;
+  }
+  .btncont {
+    margin-bottom: 20px;
+  }
+  .contentstart {
+    height: 20%;
+  }
+  .featurevideocont .maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btncont {
+    margin-bottom: 20px;
+    margin-top: 160px;
+  }
+  .btncont a .preorderbtn {
+    font-size: 1em;
+  }
+  .featurevideocont .maincontent .video {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 160px;
+    width: 250px;
+  }
+  .featurevideocont .maincontent .feature {
+    font-size: 1em;
+    text-align: center;
+  }
+  .jordanchallenge .challengecont {
+    display: flex;
+    flex-direction: column;
+  }
+  .jordanchallenge .challengecont .jordan {
+    height: 160px;
+  }
+  .jordanchallenge .challengecont .jordantextcont {
+    text-align: center;
+    font-size: 1em;
+  }
+  .jordanchallenge .challengecont .btncont2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .gameplaychanges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .gameplaychanges .bookerball {
+    height: 300px;
+    margin: 10% auto;
+  }
+  .gameplaychanges .changestxt {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt h1 {
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt p {
+    font-size: 0.8em;
+  }
+  .surveyformbg #survey-form {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .surveyformbg #survey-form #inputchoice {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-month {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #birth-year {
+    height: 20px;
+  }
+  .surveyformbg #survey-form #region {
+    height: 20px;
+  }
+  .surveyformbg #survey-form .privacyp {
+    margin-top: 10px;
+  }
+  .surveyformbg #survey-form .submitcont #submitbtn {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    margin-top: 60px;
+  }
+  .contentstart {
+    height: 0px;
+  }
+  .contentstart .btncont {
+    font-size: 0.7em;
+  }
+  .contentstart .btncont .preorderbtn {
+    padding: 5px 5px 5px 5px;
+  }
+  .featurevideocont .maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .featurevideocont .maincontent .video {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 160px;
+    width: 250px;
+  }
+  .featurevideocont .maincontent .feature {
+    font-size: 1em;
+    text-align: center;
+  }
+  .jordanchallenge .challengecont {
+    display: flex;
+    flex-direction: column;
+  }
+  .jordanchallenge .challengecont .jordan {
+    height: 120px;
+  }
+  .jordanchallenge .challengecont .jordantextcont {
+    text-align: center;
+    font-size: 1em;
+  }
+  .jordanchallenge .challengecont .btncont2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .gameplaychanges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .gameplaychanges .bookercont {
+    margin-right: 5%;
+  }
+  .gameplaychanges .bookerball {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .gameplaychanges .changestxt {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt h1 {
+    font-size: 1em;
+  }
+  .surveyformbg .surveyformcontainer .signuptxt p {
+    font-size: 0.8em;
+  }
+  .surveyformbg #survey-form {
+    font-size: 0.7em;
+    margin-top: 10px;
+  }
+  .surveyformbg #survey-form #inputchoice {
+    height: 15px;
+  }
+  .surveyformbg #survey-form #birth-month {
+    height: 15px;
+  }
+  .surveyformbg #survey-form #birth-year {
+    height: 15px;
+  }
+  .surveyformbg #survey-form #region {
+    height: 15px;
+  }
+  .surveyformbg #survey-form .privacyp {
+    margin-top: 10px;
+  }
+  .surveyformbg #survey-form .submitcont #submitbtn {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=styles.css.map */

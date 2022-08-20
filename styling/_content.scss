@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+@mixin contentfontbig($fontsize, $fontweight){
+    font-family: 'Oswald', sans-serif;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+}
+
+@mixin contentfont($fontsize, $fontweight){
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+}
+
+.contentstart{
+    background-image:url(../assets/dbook2klogo.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.btncont{
+    margin-bottom: 80px;
+
+        .preorderbtn{
+            background-color: black;
+            color: white;
+            padding: 10px 30px 10px 30px;
+            border: 1px solid red;
+            @include contentfontbig(1.5em,100%);
+            cursor: pointer;
+            transition-duration: .4s;
+        }
+
+        .preorderbtn:hover{
+            background-color: white;
+            color:black;
+        }
+    }
+
+
+
+.featurevideocont{
+    height: fit-content;
+    
+    .maincontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        .feature{
+            @include contentfontbig(1.5em,100%);
+            margin: 20px 40px 20px 40px;
+            text-align: center;
+            text-transform: uppercase;
+
+        .featuretxt{
+            @include contentfont(1.2em, 50%);
+            text-align: start;
+            text-transform: bold;
+            margin-top: 20px;
+            
+            }
+        }
+        
+        .video{
+            margin-top: 35px;
+            margin-right: 35px;
+            margin-bottom: 50px;
+            width: 628px;
+            height: 370px;
+            border: none;
+
+        }
+    }
+}
+
+.jordanchallenge{
+    background-image: url(../assets/purplebg.avif);
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    .challengecont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center ;
+        .jordan{
+            height: 350px;
+            margin: 100px 35px 40px;
+        }
+
+        .jordantextcont{
+            h1{
+                @include contentfontbig(1.8em, 100% )
+            }
+            @include contentfont(1.5em, 100%);
+        }
+
+        .btncont2{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            .learnmorebtn{
+                padding: 10px 20px 10px 20px;
+                background-color: red;
+                color: white;
+                border: 1px solid red;
+                font-family: 'Oswald', sans-serif;
+                font-size: 1em;
+                cursor: pointer;
+                transition-duration: .4s;
+            }
+
+            .learnmorebtn:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    h1{
+        color: white;
+        display: block;
+    }
+    p{
+        color: white;
+
+    }
+}
+
+.gameplaychanges{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 60px 20px 20px 36px;
+    .bookerball{
+        height: 500px;
+        margin-left: 20px;
+    }
+    .changestxt{
+        h1{
+            @include contentfontbig(1.8em, 100%);
+        }
+        @include contentfont(1.8em, 100% );
+        margin-right: 40px;
+    }
+    .buttoncontainer{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        
+        .button{
+            border: 1px solid red;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px 10px 20px;
+        }
+        .button:hover{
+            background-color: red;
+            color: white;
+            transition-duration: .4s;
+        }
+    }
+}
+
+.surveyformbg{
+    background-image: url(../assets/purplebg.avif);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    .surveyformcontainer{
+        width:50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .signuptxt{
+                color: white;
+                text-align: center;
+                h1{@include contentfontbig(3em, 100%);         
+                padding-top: 40px; 
+                }
+        
+                p{
+                @include contentfont(1.8em, 100% );
+                padding-top: 20px;
+                }
+        }
+    }
+    #survey-form{
+        margin-top: 40px;
+        margin-bottom: 5%;
+        @include contentfont(1.8em, 100%);
+        
+        #region{
+            width: 100%;
+            height: 40px;
+        }
+       
+        #inputchoice{
+            width: 100%;
+            height: 40px;
+        }
+
+        label{
+            display: block;
+            text-transform: uppercase;
+            color: white;
+        }
+        
+        .birthmonth{
+            width: 49.1%;
+        }
+        
+        .birth-year{
+            width: 49.1%;
+            
+        }
+        
+        #birth-month{
+            width: 100%;
+            height: 40px;
+        }
+        
+        #birth-year{
+            width: 100%;
+            height: 40px;
+        }
+
+        .privacyp{
+            color: white;
+            margin-top: 20px;
+            a{
+                color: white;
+            }
+        }
+
+
+        .submitcont{
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+
+            #submitbtn{
+                border: none;
+                background-color: red;
+                padding: 10px 30px 10px 30px;
+                @include contentfont(1em, 100% );
+                color: white;
+                cursor: pointer;
+            }
+
+            #submitbtn:hover{
+                background-color: white;
+                color: black;
+                transition-duration: .4s;
+            }
+        }
+    }
+}
+
+
+.birthdatecont{
+    width: 100%;
+
+    div{
+        display: inline-block;
+    }
+    div label{
+        display: block;
+    }
+}
+
+
+
